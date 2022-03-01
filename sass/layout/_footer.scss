@@ -1,0 +1,22 @@
+.footer{
+    width: 100%;
+    min-height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &-container{
+      
+        text-align: center;
+       
+    }
+    &__copyRight{
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        span{
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+}

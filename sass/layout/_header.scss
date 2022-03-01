@@ -1,0 +1,102 @@
+.header{
+    width: 100%;
+    &-container{
+        max-width: 1318px;
+        padding-top:37px;
+        display: flex;
+        margin: auto;
+    }
+    &__logo{
+        padding-top:10px;
+        &-icon{
+            width: 28px;
+            height: 20px;
+        }
+        &-text{
+
+            font-weight: 900;
+            font-size: 21px;
+            line-height: 20px;
+            /* identical to box height, or 95% */
+            
+          
+            
+            color: #141527;
+        }
+        margin-right: 97px;
+    }
+    &__nav{
+        flex-grow: 1;
+        
+    }
+    &__menu{
+        display: flex;
+        height: 44px;
+        align-items: center;
+    }
+    &__menuItem:not(:first-child){
+        margin-left: 24px;
+    }
+    &__menuLink{
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #090A14;
+        padding:5px 10px;
+        transition: all 300ms ease;
+        border-radius: 5px;
+        &:hover{
+            border:1px solid white;
+            color: white;
+            
+           
+        }
+
+    }
+    &__button{
+        display: flex;
+    }
+
+    &__btn-signIn{
+        margin-right: 20px;
+        width: 109px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;        
+        color: #090A14;
+        height: 44px;
+        border:1px solid black;
+        transition: all 300ms ease;
+        &:hover{
+            border:1px solid white;
+            border-radius: 5px;
+            color:white;
+        }
+    }
+
+}
+
+.btn-demo{
+    
+    width: 166px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;        
+    color: white;
+    background: #000;
+    transition: all 300ms ease;
+    &:hover{
+        color: #000;
+        background: white ;
+        border-radius: 5px;
+    }
+}
+

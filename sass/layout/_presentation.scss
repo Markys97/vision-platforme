@@ -1,0 +1,59 @@
+.presentation{
+    width: 100%;
+    
+    background: url('../img/globe.png') no-repeat;
+    background-position:bottom right;
+    background-attachment: fixed;
+    position: relative;
+    &::after{
+        content:'';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #5585fd;
+        z-index: -1;
+    }
+    &__content{
+        margin-left: 69px;
+        margin-top: 166px;
+        max-width: 610px;
+       // border:1px solid white;
+    }
+    &__title{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 126.5%;
+
+        color: #090A14;
+        margin-bottom: 28px;
+    }
+    &__footer{
+        position: relative;
+       margin-top: 162px;
+        margin-left:63px;
+        background: white;
+        max-width: 1372px;
+        height: 125px;
+        &-content{
+            position: absolute;
+            max-width: 968px;
+            min-height: 138px;
+            background: #141527;
+            margin-left: 191px;
+            margin-top: -70px;
+            
+
+        }
+        &-text{
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 123%;         
+            color: #FFFFFF;
+            padding: 39px 92px;
+        }
+    }
+}

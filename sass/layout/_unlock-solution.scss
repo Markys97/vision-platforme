@@ -1,0 +1,39 @@
+.unlock-solution{
+    margin-top: 67px;
+    width: 100%;
+    min-height: 271px;
+    background:url('../img/demi.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-container{
+        max-width: 543px;  
+       // border:1px solid red;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin-bottom: 7px;
+    }
+    &__text{
+        
+        max-width: 366px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 27px;
+        color: white;
+    }
+    &__button{
+        width: 166px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        font-size: 14px;        
+        color: #000000;
+        margin:auto;
+    }
+}

@@ -1,0 +1,89 @@
+.forbes{
+ width: 100%;
+ margin-bottom: 100px;
+
+    &-container{
+        max-width: 1261px;
+        min-height: 365px;
+        margin-left: 100px;
+       
+        display: flex;
+        background: white;
+    }
+    &__blockLeft{
+        position: relative;
+        max-width: 509px;
+        height: 365px;
+        margin-top: -51px;
+        margin-left: -99px;
+        &__img{
+            height: 100%;
+            max-width: 100%;
+        }
+    }
+    &__container-slider
+    {
+        width: 370px;
+        padding-left:100px;
+        padding-top: 39px;
+       // border:1px solid red;
+    }
+    &__title{
+        margin-bottom: 30px;
+    }
+    &__description{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 123%;
+        /* or 22px */
+        
+        
+        color: #0F1337;
+        margin-bottom: 16px;
+    }
+    &__text{
+        color: #141527;
+        margin-bottom: 16;
+    }
+    &__link{
+        font-size: 12px;
+    
+        
+        text-decoration-line: underline;
+        
+        color: #093CBD;
+    }
+}
+
+
+.forbes__slider .slick-prev{
+    top:200px;
+    left: unset;
+    right: -80px;
+    width: 34px;
+    height: 34px;
+    background: white;
+    border-radius:100%;
+    border:1px solid #141527;
+}
+.forbes__slider .slick-next{
+    top:199px;
+    right: -120px;
+    width: 34px;
+    height: 34px;
+    border-radius:100%;
+    background: #141527
+}
+
+.forbes__slider .slick-next::before{
+    content: url('../img/nw.png');
+}
+
+
+.forbes__slider .slick-prev::before{
+    content: url('../img/left.png');
+}
+
+
+
+

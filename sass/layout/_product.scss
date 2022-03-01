@@ -1,0 +1,131 @@
+.product{
+    width:100%;
+    min-height:464px;
+    background: #141527;
+    
+    &-container{
+        max-width: 1319px;
+        margin-left: 63px;
+      //  border:1px solid red;
+        padding-top:  60px;
+        padding-left:115px;
+    }
+    &__bar{
+        border:1px solid white;
+        margin-bottom: 40px;
+    }
+    &__title{
+        margin-bottom: 60px;
+
+    }
+    &__link{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 123%;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+        margin-right: 24px;
+    }
+    &__use{
+        font-size: 20px;
+        line-height: 123%;
+        color: #FFFFFF;
+    }
+    &__list{
+        position: relative;
+        
+    }
+    &__slider-container{
+        max-width: 1304px;
+        margin-left: 63px;
+        margin-top: -150px;
+        margin-bottom: 60px;
+    }
+    &__item{
+        width: 296px;
+        &-body{
+            width: 100%;
+            height: 213px;
+            padding-bottom: 20px;
+            margin: 0;
+           // background: red;
+        }
+        &-img{
+            max-width: 100%;
+            height:auto;
+        }
+        &-footer{
+            width: 100%;
+            background: white;
+            height: 115px;
+            padding:20px 0 24px 24px;
+            
+        }
+        &-title{
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 133%;
+            /* identical to box height, or 24px */
+            
+            
+            color: #070B2E;
+        }
+        &-text{
+            width: 248px;
+            font-size: 14px;
+            line-height: 20px; 
+            color: #070B2E;
+            //border: 1px solid red;
+        }
+    }
+}
+
+
+
+.product__slider-container .slick-slide{
+    width: auto!important;
+}
+.product__slider-container  .slick-next {
+   
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius:100%;
+   
+    
+}
+.product__slider-container  .slick-prev{
+    right: 200px;
+    top:-49px;
+    left: unset;
+    
+    border: 1px solid white;
+    border-radius:100%;
+    width: 34px;
+    height: 34px;
+    
+}
+.product__slider-container .slick-prev::before{
+    color: #141527;
+   
+    
+    content: url('../img/left-white.png');
+}
+
+ .product__slider-container .slick-next::before{
+    content: url('../img/nb.png');
+    
+    
+}
+
+
+.product__slider-container .slick-next{
+    right: 155px;
+    top:-190px;
+    
+}
+.product__slider-container .slick-prev{
+    right: 200px;
+    top:-189px;
+
+}

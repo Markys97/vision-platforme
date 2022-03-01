@@ -1,0 +1,25 @@
+._title-second{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 123%;
+    /* or 34px */
+    
+    
+    color: #FFFFFF;
+    &--blue{
+        color:#141527; 
+    }
+}
+
+._text{
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+}
+
+._bar{
+    max-width: 428px;
+    
+}

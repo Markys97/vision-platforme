@@ -1,0 +1,44 @@
+.feature{
+    width: 100%;
+    margin-bottom: 91px;
+   &-container{
+        max-width:1300px ;
+        min-height: 390px;
+        background: white;
+        margin:auto;
+        //border:1px solid red;
+        padding-top:55px;
+        padding-left: 99px;
+        
+        padding-right: 99px;
+   }
+  &__bar{
+      margin-bottom: 30px;
+  }
+  &__title{
+      margin-bottom: 46px;
+  }
+  &__list{
+      display: flex;
+      justify-content: space-between;
+  }
+  &__item{
+      max-width: 198px;
+      &-icon{
+          margin-bottom: 19px;
+      }
+      &-title{
+        font-weight: 600;
+        font-size: 17.3473px;
+        line-height: 133%;
+        color: #090A14;
+        margin-bottom: 7px;
+      }
+      &-text{
+        font-size: 14px;
+        line-height: 20px;
+        
+        color: #070B2E;
+      }
+  }
+}
